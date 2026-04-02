@@ -1,5 +1,11 @@
 import { Header as HeaderBar } from './style'
 
-const Header = () => <HeaderBar>cabeçalho</HeaderBar>
+import logo from '../../assets/images/logo.svg'
+
+const Header = () => (
+  <HeaderBar>
+    <img src={logo} alt="EPLAY" />
+  </HeaderBar>
+)
 
 export default Header
