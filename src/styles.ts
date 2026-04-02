@@ -18,6 +18,8 @@ export const GlobalCss = createGlobalStyle`
   body {
     background-color: ${Cores.preta};
     color: ${Cores.branca};
+    padding-top: 16px;
+    margin-bottom: 80px;
   }
 
 
