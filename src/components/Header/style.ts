@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { colors } from '../../styles'
 
 export const Header = styled.header`
-  background-color: ${Cores.cinza};
+  background-color: ${colors.gray};
   padding: 24px;
   border-radius: 16px;
   max-width: 1024px;
@@ -13,7 +13,7 @@ export const Header = styled.header`
   justify-content: space-between;
 
   a {
-    color: ${Cores.branca};
+    color: ${colors.white};
     text-decoration: none;
     font-weight: bold;
   }
