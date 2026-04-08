@@ -85,12 +85,14 @@ const emBreve: Game[] = [
   }
 ]
 
-const Home = () => (
+const Categories = () => (
   <>
     <Banner />
+    <ProductsList games={promocoes} title="Promoções" background="gray" />
+    <ProductsList games={emBreve} title="Em breve" background="black" />
     <ProductsList games={promocoes} title="Promoções" background="gray" />
     <ProductsList games={emBreve} title="Em breve" background="black" />
   </>
 )
 
-export default Home
+export default Categories
